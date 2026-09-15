@@ -4,6 +4,7 @@ Java Object-Oriented Programming Solutions
 # Q1 Identify and correct the errors
  A) Error: the variable k is used without being declared or initialized
  Correction :
+'''Java
 public class Test {
 	public static void main (String[] args) {
 		int k = 2;
@@ -15,7 +16,7 @@ public class Test {
  B) 
   Error: the variable k , j is used without being declared or initialized
  Correction :
-
+'''Java
 public class Test {
 	public static void main (String[] args) {
 		int j ;
@@ -33,4 +34,5 @@ Explanation: Because its value should not change during execution. Using final p
 		 and make the code clearer.
 
 B) Write a Java statement that declares an int constant named SIZE 
-		final int SIZE = 10 ;
+'''Java		
+final int SIZE = 10 ;
