@@ -3,6 +3,7 @@ Java Object-Oriented Programming Solutions
 
 # Q1 Identify and correct the errors
  A) Error: the variable k is used without being declared or initialized
+
  Correction :
 ```Java
 public class Test {
@@ -15,6 +16,7 @@ public class Test {
 ```
  B) 
   Error: the variable k , j is used without being declared or initialized
+
  Correction :
 ```Java
 public class Test {
@@ -29,7 +31,9 @@ public class Test {
  # Q2) Constants 
 A) a value is used several time in a Java program and should not change while the program is running.
 	 Would you declare it as a variable or constant? Explain your choice.
+
 Answer: Constant
+
 Explanation: Because its value should not change during execution. Using final prevent accidental changes
 		 and make the code clearer.
 
